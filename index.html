@@ -15,7 +15,7 @@
     />
   </head>
   <body class="bg-my-bg bg-scroll text-my-grey" style="height: 2000px">
-    <section>
+    <section id="header">
       <div
         style="background-image: url(./asset/corped\ white\ mountain.png)"
         class="header2 h-screen min-w-full bg-cover bg-no-repeat bg-local flex flex-col justify-start items-center"
@@ -27,17 +27,17 @@
           <button
             class="fade p-1 px-4 rounded-md hover:duration-300 hover:underline hover:text-my-grey-lightest"
           >
-            About
+            <a href="#AboutMe">About</a>
           </button>
           <button
             class="fade p-1 px-4 rounded-lg hover:duration-300 hover:underline hover:text-my-grey-lightest"
           >
-            Skills
+            <a href="#skills">Skills</a>
           </button>
           <button
             class="fade p-1 px-4 rounded-lg hover:duration-300 hover:underline hover:text-my-grey-lightest"
           >
-            Projects
+            <a href="#projects">Projects</a>
           </button>
         </nav>
         <div
@@ -47,7 +47,7 @@
           Sunil Parajuli
         </div>
         <div
-          class="fade heroText w-3/5 text-my-grey flex justify-center sm:text-xl text-lg py-2 items-center"
+          class="fade heroText w-3/5 text-my-grey flex flex-wrap justify-center sm:text-xl text-lg py-2 items-center"
         >
           Computer Science , Computer Network @ Trivuwan Unversity..
         </div>
@@ -122,13 +122,13 @@
             "
             class="fade font-semibold text-my-grey text-xl py-1 px-4 rounded-xl hover:duration-500 hover:bg-my-grey hover:text-my-bg hover:border-black"
           >
-            Resume
+            <a target="_blank" href="./asset/cool.png">Resume</a>
           </button>
         </div>
       </div>
     </section>
 
-    <section> 
+    <section id="AboutMe"> 
       <div class="lows">
         <div class="gap h-52"></div>
         <div class="AboutMe flex justify-center items-center flex-col gap-9">
@@ -181,7 +181,7 @@
       </div>
     </section>
 
-    <section>
+    <section id="skills">
       <div class="Skills">
         <div class="gap h-52"></div>
         <div class="SKills flex justify-center items-center flex-col ">
@@ -309,11 +309,11 @@
       </div>
     </section>
 
-    <section>
+    <section >
       <div class="Projects">
         <div class="gap h-52"></div>
         <div class="Projects flex justify-center items-center flex-col">
-          <div
+          <div id="projects"
             class="fade skills-text font-semibold text-5xl flex justify-center flex-col items-center"
           >
             Projects
@@ -375,7 +375,7 @@
       </div>
     </section>
 
-    <section>
+    <section id="contact">
       <div class="contact">
         <div class="gap h-52"></div>
         <div class="contact flex justify-center items-center flex-col">
@@ -401,8 +401,8 @@
       </div>
     </section>
 
-    <section>
-      <div style="background-color: #202020;" class=" footer fade bg-my-grey-divbg w-full h-20 flex justify-evenly items-center">
+    <section id="footer">
+      <div style="background-color: #202020;" class=" footer fade bg-my-grey-divbg w-full h-20 flex justify-end items-center">
 
         <div style="font-size: 20px; font-family: IBM Plex Mono; opacity: 0.7; " class=" w-2/6 flex justify-center font-semibold ">@2024</div>
 
@@ -454,7 +454,7 @@
             "
             class="fade  text-my-grey text-xl py-1 px-3  hover:duration-500 hover:bg-my-grey-light hover:text-my-bg hover:border-black "
           >
-           <img style="height: 20px; width: 20px; min-width: 20px;" src="./asset/going up .png" alt="">
+           <a href="#header"><img style="height: 20px; width: 20px; min-width: 20px;" src="./asset/going up .png" alt=""></a>
           </button>
 
           
